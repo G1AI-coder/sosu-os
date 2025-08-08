@@ -1,0 +1,9 @@
+function main() {
+    prints "Hello from SOSU OS!";
+    prints "Memory: 2MB";
+    prints "GC: enabled";
+    prints "JIT: ready";
+    benchmark;
+    gc collect;
+    return 0;
+}
